@@ -12,9 +12,9 @@ const Select = () => {
           id="car"
         >
           <option value="All Type">All Type</option>
-          <option value="saab">Saab</option>
-          <option value="opel">Opel</option>
-          <option value="audi">Audi</option>
+          <option value="saab">1</option>
+          <option value="opel">2</option>
+          <option value="audi">3</option>
         </select>
         <select
           className="py-2 px-2 md:px-4 md:py-3 bg-gray-200 border border-gray text-sm md:text-md"
@@ -22,9 +22,9 @@ const Select = () => {
           id="cars"
         >
           <option value="Neighborhood">Neighborhood</option>
-          <option value="saab">Saab</option>
-          <option value="opel">Opel</option>
-          <option value="audi">Audi</option>
+          <option value="saab">1</option>
+          <option value="opel">2</option>
+          <option value="audi">3</option>
         </select>
         <button className="bg-blue-400 px-5 md:px-4 rounded-r-md">
           <FiSearch className="text-white" />
