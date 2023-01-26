@@ -23,7 +23,7 @@ const Services = () => {
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector1} alt="" />
             </div>
-            <p className="text-md font-semibold w-2/3 md:w-2/5 capitalize tracking-wide">
+            <p className="text-md font-semibold w-1/2 md:w-2/5 capitalize tracking-wide">
               Pay as Little as possible!
             </p>
           </div>
@@ -31,7 +31,7 @@ const Services = () => {
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector2} alt="" />
             </div>
-            <p className="text-md font-semibold w-2/3 md:w-1/2 capitalize tracking-wide">
+            <p className="text-md font-semibold w-7/12 md:w-1/2 capitalize tracking-wide">
               Enjoy wisdom of community!
             </p>
           </div>
@@ -47,7 +47,7 @@ const Services = () => {
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector4} alt="" />
             </div>
-            <p className="text-md font-semibold w-2/3 capitalize tracking-wide">
+            <p className="text-md font-semibold w-1/2 md:2/3 capitalize tracking-wide">
               Enjoy peaceful Environment!
             </p>
           </div>
