@@ -60,6 +60,9 @@ background-color: #F4511E;
 color: #FFF;
 border: 1px solid #F4511E;
 }
+.carousel .control-dots{
+  width: 5rem;
+}
 .carousel .control-dots .selected{
   background-color:#F4511E;
 }

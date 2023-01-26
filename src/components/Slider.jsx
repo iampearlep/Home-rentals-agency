@@ -5,7 +5,7 @@ import testimonialImg from "../assets/testimonialImg (1).svg";
 
 const Slider = () => {
   return (
-    <div className="w-1/2 mt-20">
+    <div className="w-1/2 flex mt-20 py-12 px-16 ">
       <Carousel
         className="carousel"
         autoPlay="true"
@@ -15,7 +15,7 @@ const Slider = () => {
         interval="3000"
         showThumbs={false}
       >
-        <div className="">
+        <div className="text-left">
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel
@@ -24,9 +24,9 @@ const Slider = () => {
             faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus
             fringilla finibus.
           </p>
-          <div className="">
+          <div className="mb-20 mt-5 flex flex-row align-start justify-start w-2/5">
             <img className="w-10 h-10" src={testimonialImg} alt="" />
-            <div className="">
+            <div className="w-11/12">
               <h4 className="text-orange-600 text-sm font-bold">
                 Harry Wilson
               </h4>
@@ -34,7 +34,7 @@ const Slider = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="text-left">
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel
@@ -43,9 +43,9 @@ const Slider = () => {
             faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus
             fringilla finibus.
           </p>
-          <div className="">
+          <div className="mb-20 mt-5 flex flex-row align-start justify-start w-2/5">
             <img className="w-10 h-10" src={testimonialImg} alt="" />
-            <div className="">
+            <div className="w-11/12">
               <h4 className="text-orange-600 text-sm font-bold">
                 Harry Wilson
               </h4>
@@ -53,7 +53,7 @@ const Slider = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="text-left">
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel
@@ -62,9 +62,9 @@ const Slider = () => {
             faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus
             fringilla finibus.
           </p>
-          <div className="">
+          <div className="mb-20 mt-5 flex flex-row align-start justify-start w-2/5">
             <img className="w-10 h-10" src={testimonialImg} alt="" />
-            <div className="">
+            <div className="w-11/12">
               <h4 className="text-orange-600 text-sm font-bold">
                 Harry Wilson
               </h4>
