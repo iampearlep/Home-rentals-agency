@@ -5,7 +5,7 @@ import testimonialImg from "../assets/testimonialImg (1).svg";
 
 const Slider = () => {
   return (
-    <div className="w-1/2 flex mt-20 py-12 px-16 ">
+    <div className="w-full md:w-1/2 flex p-6 mt-16 md:mt-20 md:py-12 md:px-16 ">
       <Carousel
         className="carousel"
         autoPlay="true"
@@ -24,7 +24,7 @@ const Slider = () => {
             faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus
             fringilla finibus.
           </p>
-          <div className="mb-20 mt-5 flex flex-row align-start justify-start w-2/5">
+          <div className="mb-20 mt-5 flex flex-row align-start justify-start md:w-2/5">
             <img className="w-10 h-10" src={testimonialImg} alt="" />
             <div className="w-11/12">
               <h4 className="text-orange-600 text-sm font-bold">
