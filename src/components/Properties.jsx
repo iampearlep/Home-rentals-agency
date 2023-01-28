@@ -56,11 +56,11 @@ const Properties = () => {
       <div className="container mx-auto">
         <div className="flex flex-col mx-8 md:mx-16 ">
           <div className="flex flex-row justify-between mt-12 mb-14">
-            <h2 className="capitalize text-xl md:text-2xl font-bold">
+            <h2 data-aos="fade-down" data-aos-offset="300" data-aos-delay="300" data-aos-easing="ease-in-out" className="capitalize text-xl md:text-2xl font-bold">
               list of properties
               <hr className="border-orange-600 w-14 border-t-0 border-b-2" />
             </h2>
-            <button className="bg-orange-600 text-white text-xs md:text-sm capitalize py-3 px-1 md:px-4 rounded-md">
+            <button data-aos="zoom-in" data-aos-offset="300" data-aos-delay="300" data-aos-easing="ease-in-out" className="bg-orange-600 text-white text-xs md:text-sm capitalize py-3 px-1 md:px-4 rounded-md">
               view all properties
             </button>
           </div>
