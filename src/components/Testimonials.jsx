@@ -9,8 +9,9 @@ const Testimonials = () => {
        <img className="absolute mt-4 md:mt-10 md:ml-7 p-8" src={Curly} alt="" />
       <div className="flex flex-col md:flex-row gap-8 mx-auto relative">
         <Slider />
-        <div className="md:w-1/2">
-          <img src={contentCard} alt="" />
+        <div className="md:w-1/2 ">
+          {/* <img src={contentCard} alt="" /> */}
+          <iframe className="h-80 w-screen md:w-full md:h-full" src="https://www.youtube.com/embed/yXWw0_UfSFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
