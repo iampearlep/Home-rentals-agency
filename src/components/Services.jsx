@@ -10,16 +10,16 @@ import Vector6 from "../assets/Vector (9).svg";
 const Services = () => {
   return (
     <div className="container mx-auto mt-20">
-      <h2 className="w-11/12 md:w-full mx-auto text-lg md:text-2xl font-bold md:ml-10 capitalize text-center md:text-left mb-4 leading-relaxed md:mb-0">
+      <h2 data-aos="fade-down" data-aos-offset="250" data-aos-easing="ease-in-out" className="w-11/12 md:w-full mx-auto text-lg md:text-2xl font-bold md:ml-10 capitalize text-center md:text-left mb-4 leading-relaxed md:mb-0">
         Minimum living cost takes care of everything{" "}
         <hr className="border-orange-600 hidden md:block -mt-8 ml-10 md:ml-0 md:-mt-0 w-52 border-t-0 border-b-2" />
       </h2>
       <div className="flex flex-col md:flex-row">
         <div>
-          <img src={Cost} alt="" />
+          <img data-aos="zoom-out-right" data-aos-delay="300" data-aos-offset="270" data-aos-easing="ease-in-out" src={Cost} alt="" />
         </div>
         <div className="grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 md:py-24 mb-20 md:mb-0">
-          <div className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
+          <div data-aos="zoom-in" data-aos-offset="280" data-aos-delay="300" data-aos-easing="ease-in-out" className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector1} alt="" />
             </div>
@@ -27,7 +27,7 @@ const Services = () => {
               Pay as Little as possible!
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
+          <div data-aos="zoom-in" data-aos-offset="280" data-aos-delay="400" data-aos-easing="ease-in-out" className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector2} alt="" />
             </div>
@@ -35,7 +35,7 @@ const Services = () => {
               Enjoy wisdom of community!
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
+          <div data-aos="zoom-in" data-aos-offset="280" data-aos-delay="500" data-aos-easing="ease-in-out" className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector3} alt="" />
             </div>
@@ -43,7 +43,7 @@ const Services = () => {
               Let's somebody else take care of Landlord!
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
+          <div data-aos="zoom-in" data-aos-offset="280" data-aos-delay="600" data-aos-easing="ease-in-out" className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector4} alt="" />
             </div>
@@ -51,7 +51,7 @@ const Services = () => {
               Enjoy peaceful Environment!
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
+          <div data-aos="zoom-in" data-aos-offset="280" data-aos-delay="700" data-aos-easing="ease-in-out" className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector5} alt="" />
             </div>
@@ -59,7 +59,7 @@ const Services = () => {
               Stay Safe! Save Money!
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
+          <div data-aos="zoom-in" data-aos-offset="280" data-aos-delay="800" data-aos-easing="ease-in-out" className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start">
             <div className="w-10 h-10 flex items-center justify-center rounded-md bg-white shadow-xl mb-3">
               <img className="w-6 h-6" src={Vector6} alt="" />
             </div>
