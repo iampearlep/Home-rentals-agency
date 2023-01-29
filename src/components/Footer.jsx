@@ -6,7 +6,7 @@ import {BsPinterest} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <div className='container mx-auto mt-32 mb-16'>
+    <div data-aos="zoom-in-up" data-aos-offset="400" data-aos-delay="400" data-aos-easing="ease-in-out" className='container mx-auto mt-32 mb-16'>
       <hr className="mx-auto mt-3 border-t border-b border-orange-600 border-gray-300 w-11/12"/>
       <div className='flex flex-col md:flex-row mx-auto justify-between w-9/12 my-12 gap-y-8' >
           <h1 className='text-3xl font-bold'>Logo</h1>

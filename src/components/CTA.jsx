@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from "framer-motion";
 
 const CTA = () => {
   return (
@@ -91,7 +92,10 @@ const CTA = () => {
             </div>
           </div>
           <div className="md:col-start-1 md:col-end-4 text-center mt-8 mb-10">
-            <button className="bg-orange-600 text-white text-sm rounded-md px-20 md:px-28 py-4">Add New Property</button>
+            <motion.button whileHover={{
+    scale: 1.2,
+    transition: { duration: 1 },
+  }} className="bg-orange-600 text-white text-sm rounded-md px-20 md:px-28 py-4">Add New Property</motion.button>
           </div>
         </form>
       </div>
