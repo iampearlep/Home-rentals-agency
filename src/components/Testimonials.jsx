@@ -11,7 +11,7 @@ const Testimonials = () => {
         <Slider />
         <div className="md:w-1/2 ">
           {/* <img src={contentCard} alt="" /> */}
-          <iframe className="h-80 w-screen md:w-full md:h-full" src="https://www.youtube.com/embed/yXWw0_UfSFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="h-80 w-screen md:w-full md:h-full" src="https://www.youtube.com/embed/yXWw0_UfSFg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
       </div>
     </div>

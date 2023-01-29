@@ -4,6 +4,7 @@ import ReactPaginate from "react-paginate";
 import bed from "../assets/Bed.svg";
 import shower from "../assets/Shower.svg";
 import size from "../assets/Size.svg";
+import {motion} from "framer-motion";
 
 const Properties = () => {
   const [properties, setProperties] = useState(Data.slice(0, 18));
@@ -16,10 +17,16 @@ const Properties = () => {
     .map((property) => {
       return (
         <div
+        data-aos="zoom-in" data-aos-offset="400" data-aos-delay="500" data-aos-easing="ease-in-out"
           key={property.id}
           className="rounded-3xl bg-white border border-secondary hover:shadow-2xl hover:border-none hover:delay-150 hover:duration-200 hover:ease-in-out hover:transition-all"
         >
-          <img src={property.image} className="w-full" alt="property-img" />
+          <motion.div whileHover={{
+    scale: 0.9,
+    transition: { duration: 1 },
+  }} >
+          <img  src={property.image} className="w-full" alt="property-img" />
+          </motion.div>
           <div className="flex-flex-col px-6 py-2">
             <h4 className="text-lg capitalize font-semibold w-10/12 leading-snug mb-3">
               {property.location}
