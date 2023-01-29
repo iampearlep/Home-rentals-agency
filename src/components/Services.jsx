@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div className="container mx-auto mt-20">
+    <div className="container mx-auto mt-20 md:mt-48">
       <h2
         data-aos="fade-down"
         data-aos-offset="250"

@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import {
   Header,
-  Hero,
   Services,
   Properties,
   Search,
@@ -18,10 +17,7 @@ const App = () => {
   }, []);
   return (
     <>
-      <div className="top-section">
         <Header />
-        <Hero />
-      </div>
       <Services />
       <Properties />
       <Search />
