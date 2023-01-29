@@ -7,6 +7,13 @@ import CTA from "./CTA";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 
-
-
-export {Header, Hero, Services, Properties, Testimonials, Footer, Search, CTA};
+export {
+  Header,
+  Hero,
+  Services,
+  Properties,
+  Testimonials,
+  Footer,
+  Search,
+  CTA,
+};
