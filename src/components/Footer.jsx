@@ -14,8 +14,8 @@ const Footer = () => {
   return (
     <div
       data-aos="zoom-in-up"
-      data-aos-offset="500"
-      data-aos-delay="500"
+      data-aos-offset="200"
+      data-aos-delay="200"
       data-aos-easing="ease-in-out"
       className="container mx-auto mt-32 mb-16"
     >

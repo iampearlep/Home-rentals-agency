@@ -16,7 +16,7 @@ const App = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <>
+    <div className="overflow-x-hidden">
         <Header />
       <Services />
       <Properties />
@@ -24,7 +24,7 @@ const App = () => {
       <CTA />
       <Testimonials />
       <Footer />
-    </>
+    </div>
   );
 };
 
