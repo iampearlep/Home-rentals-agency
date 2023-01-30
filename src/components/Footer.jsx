@@ -60,9 +60,9 @@ const Footer = () => {
           <p className="uppercase">Disclaimer</p>
         </div>
         <div>
-          <p className="capitalize">
-            Copyright © 2023 Minimumlivingcost @alwayspearlxx. All rights
-            reserved
+          <p>
+            Copyright © 2023 Minimumlivingcost @alwayspearlxx. All Rights
+            Reserved
           </p>
         </div>
       </div>
