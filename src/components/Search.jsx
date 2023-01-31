@@ -73,10 +73,6 @@ const Search = () => {
           </motion.div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-offset="400"
-          data-aos-delay="500"
-          data-aos-easing="ease-in-out"
           className="w-11/12 md:w-1/2 flex flex-col justify-center items-center md:justify-start md:items-start mt-32 mx-auto"
         >
           <h2 className="text-xl md:text-3xl text-center md:text-left font-bold w-10/12 md:w-8/12 mb-6">
