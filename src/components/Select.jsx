@@ -6,9 +6,6 @@ const Select = () => {
   return (
     <div className="w-11/12">
       <form
-        data-aos="zoom-in-down"
-        data-aos-offset="220"
-        data-aos-easing="ease-in-out"
         className=" text-black bg-white flex justify-center rounded-md py-2 px-5 md:py-3 md:px-5"
       >
         <select

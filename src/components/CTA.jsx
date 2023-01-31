@@ -6,10 +6,6 @@ const CTA = () => {
     <div className="container mx-auto mt-32 md:mt-72">
       <div className="flex justify-center w-10/12 mx-auto my-4">
         <h3
-          data-aos="fade-down"
-          data-aos-offset="400"
-          data-aos-delay="400"
-          data-aos-easing="ease-in-out"
           className="font-semibold text-center capitalize"
         >
           Your property with us and be Confident that Your Room will be Filled

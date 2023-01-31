@@ -12,9 +12,6 @@ const Services = () => {
   return (
     <div className="container mx-auto mt-20 md:mt-48">
       <h2
-        data-aos="fade-down"
-        data-aos-offset="250"
-        data-aos-easing="ease-in-out"
         className="w-11/12 md:w-full mx-auto text-lg md:text-2xl font-bold md:ml-10 capitalize text-center md:text-left mb-4 leading-relaxed md:mb-0"
       >
         Minimum living cost takes care of everything{" "}

@@ -18,8 +18,8 @@ const Properties = () => {
       return (
         <div
           data-aos="zoom-in"
-          data-aos-offset="400"
-          data-aos-delay="500"
+          data-aos-offset="200"
+          data-aos-delay="350"
           data-aos-easing="ease-in-out"
           key={property.id}
           className="rounded-3xl bg-white border border-secondary hover:shadow-2xl hover:border-none hover:delay-150 hover:duration-200 hover:ease-in-out hover:transition-all"
@@ -69,10 +69,6 @@ const Properties = () => {
         <div className="flex flex-col mx-8 md:mx-16 ">
           <div className="flex flex-row justify-between mt-12 mb-14">
             <h2
-              data-aos="fade-down"
-              data-aos-offset="300"
-              data-aos-delay="300"
-              data-aos-easing="ease-in-out"
               className="capitalize text-xl md:text-2xl font-bold"
             >
               list of properties
